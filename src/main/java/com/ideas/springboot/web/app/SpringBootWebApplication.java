@@ -5,8 +5,8 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-@EnableJpaRepositories(basePackages = "com.ideas.springboot.web.app.service.dto.team")
-@EntityScan(basePackages = "com.ideas.springboot.web.app.service.dto.team")
+@EnableJpaRepositories(basePackages = "com.ideas.springboot.web.app.service.dto")
+@EntityScan(basePackages = "com.ideas.springboot.web.app.service.dto")
 public class SpringBootWebApplication {
 
 	public static void main(String[] args) {

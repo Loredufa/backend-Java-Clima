@@ -1,4 +1,4 @@
-package com.ideas.springboot.web.app.service.dto.team;
+package com.ideas.springboot.web.app.service.dto;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

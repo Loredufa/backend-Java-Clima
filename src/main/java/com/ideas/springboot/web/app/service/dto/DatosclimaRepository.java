@@ -1,4 +1,4 @@
-package com.ideas.springboot.web.app.service.dto.team;
+package com.ideas.springboot.web.app.service.dto;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

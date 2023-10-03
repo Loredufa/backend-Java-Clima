@@ -1,15 +1,27 @@
-package com.ideas.springboot.web.app.service.dto.team;
+package com.ideas.springboot.web.app.service.dto;
 
-public class LocationDTO {
-	   private String name;
-	   private String region;
-	   private String country;
-	   private double lat;
-	   private double lon;
-	   private String tz_id;
-	   private long localtime_epoch;
-	   private String localtime;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.Data;
 
+@Data
+public class Team {
+
+	@JsonProperty("location")
+	private String name;
+    private String region;
+    private String country;
+    private double lat;
+    private double lon;
+    private String tz_id;
+    private long localtime_epoch;
+    private String localtime;
+    
+    public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
 	public String getRegion() {
 		return region;
 	}
@@ -52,12 +64,6 @@ public class LocationDTO {
 	public void setLocaltime(String localtime) {
 		this.localtime = localtime;
 	}
-
-	public String getName() {
-		return name;
-	}
-	public void setName(String name) {
-		this.name = name;
-	}
+	;
 
 }

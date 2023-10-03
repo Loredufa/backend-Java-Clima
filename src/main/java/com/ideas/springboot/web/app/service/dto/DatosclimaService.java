@@ -1,4 +1,4 @@
-package com.ideas.springboot.web.app.service.dto.team;
+package com.ideas.springboot.web.app.service.dto;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
